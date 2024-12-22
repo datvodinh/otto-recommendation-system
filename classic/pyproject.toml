@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "kaggle-otto-rs"
+version = "0.1.0"
+description = ""
+authors = ["Dat Vo <vodinhdat03@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+protobuf = "^5.29.2"
+sentencepiece = "^0.2.0"
+spacy = "^3.8.3"
+scikit-learn = "^1.6.0"
+tokenizers = "^0.21.0"
+transformers = "^4.47.1"
+torchcontrib = "^0.0.2"
+seaborn="*"
+ipywidgets="^8.0.2"
+beartype="*"
+merlin-dataloader="*"
+numerize="*"
+pandarallel="^1.6.3"
+optuna="^3.1.0"
+lightgbm="^3.3.5"
+numpy = "<2.0"
+pandas="*"
+dask = {version = "<2024", extras = ["dataframe", "distributed"]}
+merlin-core = "^23.8.0"
+gensim = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,31 @@
+# Vscode, jupyer & python
+__pycache__/
+.idea
+.ipynb_checkpoints/
+.vscode
+*.code-workspace
+
+# Extensions
+*.pt
+*.pyc
+*.pkl
+*.json
+*.zip
+*.bin
+*.npy
+*.npz
+*.pt
+*.pth
+*.csv
+*.tsv
+*.txt
+*.log
+core
+
+# Folders
+logs/
+output/
+/models/
+input/
+.ipynb_checkpoints/
+.neptune/
